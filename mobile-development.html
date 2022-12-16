@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta charset="UTF-8">
+<title>Agilo Works</title>
+<link href="images/logo/fav.png" rel="shortcut icon" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/my-css.css">
+
+
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+
+		$(".menu-menn").click(function() {
+
+			$(".navbar-collapse").removeClass("in");
+
+		});
+
+		$(".menu-menn").click(function() {
+
+			$(".navbar-collapse").attr("aria-expanded", "false");
+
+		});
+
+		// Add smooth scrolling to all links
+		$("a").on('click', function(event) {
+
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+				// Prevent default anchor click behavior
+				event.preventDefault();
+
+				// Store hash
+				var hash = this.hash;
+
+				// Using jQuery's animate() method to add smooth page scroll
+				// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+				$('html, body').animate({
+					scrollTop : $(hash).offset().top
+				}, 800, function() {
+
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+				});
+			} // End if
+		});
+	});
+</script>
+
+
+<link href="css/ace-responsive-menu.css" rel="stylesheet"
+	type="text/css" />
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<link href="src/easy-responsive-tabs.css" rel="stylesheet"
+	type="text/css">
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css"
+	rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="css/style.min.css">
+<script src="js/vendor.js.download"></script>
+<script src="js/app.js.download"></script>
+<script src="js/vendors/jquery/jquery.min.js"></script>
+<script src="js/vendors/jquery.sticky.js"></script>
+
+
+</head>
+
+<body>
+	<div class="boxed_wrapper">
+		<div class="crypto-top-strip crypto-bgcolor">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 top-left">
+						<span><i class="fa fa-envelope-o"></i> sales@agiloworks.com</span>
+						<span><i class="fa fa-phone"></i></span>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="head-bottom sticky">
+			<div class="container">
+				<div class="logo pull-left">
+					<a href="index.html"> <img src="images/logo.png"
+						class="meelooo"></a>
+				</div>
+				<ul class="wli-nav">
+
+					<li class="my-menus"><a href="aboutus.html">About Us </a>
+					<li><a href="#">Services <i class="fa fa-angle-down"></i></a>
+						<div class="mm_menu expertise">
+							<div class="container">
+								<div>
+									<ul class="expertise_nav nav nav-tabs" role="tablist">
+										<li role="presentation"><a href="#"
+											data-target="#technology_solutions"
+											aria-controls="technology_solutions" role="tab"
+											data-hover="tab"><i class="fa fa-angle-right"></i>
+												Development</a></li>
+										<li role="presentation"><a href="#"
+											data-target="#enterprise_solutions"
+											aria-controls="enterprise_solutions" role="tab"
+											data-hover="tab"><i class="fa fa-angle-right"></i>
+												Testing</a></li>
+
+									</ul>
+
+									<div class="tab-content">
+										<div role="tabpanel" class="tab-pane active mm_menu_in"
+											id="coreservices">
+											<div class="row">
+												<div class="col-sm-6 menu_link_block">
+													<p>AgiloWorks is a software company that is helping its
+														customers in their digital transformation journey in Agile
+														way. Because we know how to design and build highly
+														scalable distributed systems, using Agile development
+														methodologies.</p>
+
+												</div>
+												<div class="col-sm-6 borderLeft menu-sidebar">
+													<img src="images/link_portfolio_bg.jpg"
+														class="img-responsive" style="width: 100%;">
+												</div>
+											</div>
+										</div>
+
+										<div role="tabpanel" class="tab-pane mm_menu_in"
+											id="technology_solutions">
+											<div class="row">
+												<div class="col-sm-6 menu_link_block">
+													<div class="menu_title">Development</div>
+													<ul>
+														<li><a href="application-development.html"><i
+																class="fa fa-angle-right"></i> Application Development</a></li>
+														<li><a href="mobile-development.html"><i
+																class="fa fa-angle-right"></i> Mobile App Development</a></li>
+
+													</ul>
+												</div>
+												<div class="col-sm-6 borderLeft menu-sidebar">
+													<img src="images/link_portfolio_bg.jpg"
+														class="img-responsive" style="width: 100%;">
+												</div>
+											</div>
+										</div>
+
+
+										<div role="tabpanel" class="tab-pane mm_menu_in"
+											id="enterprise_solutions">
+											<div class="row">
+												<div class="col-sm-6 menu_link_block">
+													<div class="menu_title">Testing Services</div>
+													<ul>
+														<li><a
+															href="functional-testing-and-automation-testing.html"><i
+																class="fa fa-angle-right"></i> Functional Manual &
+																Automation Testing</a></li>
+														<li><a href="api-testing.html"><i
+																class="fa fa-angle-right"></i> API Testing </a></li>
+
+													</ul>
+												</div>
+												<div class="col-sm-6 borderLeft menu-sidebar">
+													<img src="images/link_portfolio_bg.jpg"
+														class="img-responsive" style="width: 100%;">
+												</div>
+											</div>
+										</div>
+
+
+									</div>
+								</div>
+							</div>
+						</div></li>
+
+					<li><a href="#">Verticals <i class="fa fa-angle-down"></i></a>
+						<div class="mm_menu engagement">
+							<div class="container">
+								<div>
+									<div class="row">
+										<div class="col-sm-4">
+											<a href="core-ecommerce-framework.html">
+												<div class="company_menu">
+													<img src="images/link_it_consultant.jpg"
+														class="img-responsive" style="width: 100%;">
+													<div class="link_bg link_consultant_bg">
+														<span>Core Ecommerce Framework</span>
+													</div>
+												</div>
+											</a>
+										</div>
+										<div class="col-sm-4">
+											<a href="bestpik.html">
+												<div class="company_menu">
+													<img src="images/link_it_consultant2.jpg"
+														class="img-responsive" style="width: 100%;">
+													<div class="link_bg link_team_bg">
+														<span>BestPik</span>
+													</div>
+												</div>
+											</a>
+										</div>
+
+
+										<div class="col-sm-4">
+											<a href="apzpik.html">
+												<div class="company_menu">
+													<img src="images/link_it_consultant12.jpg"
+														class="img-responsive" style="width: 100%;">
+													<div class="link_bg link_team_bg">
+														<span>ApzPik</span>
+													</div>
+												</div>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div></li>
+
+					<li class="my-menus"><a href="technologies.html">Technologies
+					</a>
+					<li class="my-menus"><a href="contactus.html">Contact</a></li>
+
+				</ul>
+
+				<div id="mobileMenu" class="cd-dropdown-wrapper">
+					<a class="cd-dropdown-trigger" href="javascript:void(0);"><span></span>
+						<span></span> <span></span></a>
+					<nav class="cd-dropdown" style="height: 662px;">
+						<a href="javascript:void(0);" class="cd-close" id="ddd">Close</a>
+						<ul class="kingdigital cd-dropdown-content">
+							<li class="my-menus"><a href="aboutus.html"><i
+									class="fa fa-circle" aria-hidden="true"></i> About Us</a></li>
+
+
+							<li class="has-children"><a href="#"><i
+									class="fa fa-circle" aria-hidden="true"></i> Development
+									Services</a>
+								<ul class="cd-secondary-dropdown is-hidden">
+									<li class="go-back"><a href="javascript:void(0);">Back</a></li>
+									<li><a href="application-development.html"><i
+											class="fa fa-circle" aria-hidden="true"></i> Application
+											Development</a></li>
+									<li><a href="mobile-development.html"><i
+											class="fa fa-circle" aria-hidden="true"></i> Mobile app
+											Development</a></li>
+
+								</ul></li>
+
+							<li class="has-children"><a href="our-services.html"><i
+									class="fa fa-circle" aria-hidden="true"></i> Testing Services</a>
+								<ul class="cd-secondary-dropdown is-hidden">
+									<li class="go-back"><a href="javascript:void(0);">Back</a></li>
+									<li><a
+										href="functional-testing-and-automation-testing.html"><i
+											class="fa fa-angle-right"></i> Functional Manual & Automation
+											Testing</a></li>
+									<li><a href="api-testing.html"><i
+											class="fa fa-angle-right"></i> API Testing </a></li>
+								</ul></li>
+
+							<li class="has-children"><a href="our-services.html"><i
+									class="fa fa-circle" aria-hidden="true"></i> Verticals</a>
+								<ul class="cd-secondary-dropdown is-hidden">
+									<li class="go-back"><a href="javascript:void(0);">Back</a></li>
+									<li><a href="core-ecommerce-framework.html"><i
+											class="fa fa-circle" aria-hidden="true"></i> Core Ecommerce
+											Framework</a></li>
+									<li><a href="bestpik.html"><i class="fa fa-circle"
+											aria-hidden="true"></i> BestPik</a></li>
+									<li><a href="apzpik.html"><i class="fa fa-circle"
+											aria-hidden="true"></i> apzpik</a></li>
+								</ul></li>
+
+							<li class="my-menus"><a href="technologies.html"><i
+									class="fa fa-circle" aria-hidden="true"></i> Technologies </a></li>
+
+							<li class="my-menus"><a href="contactus.html"><i
+									class="fa fa-circle" aria-hidden="true"></i> Contact</a></li>
+
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<div class="inner-agilo">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 col-xs-6 col-sm-6">
+						<h3>Mobile Development</h3>
+					</div>
+
+					<div class="col-md-6 col-xs-6 col-sm-6 tags-ri">
+						<a href="index.html">Home</a> <i class="fa fa-angle-right"></i>
+
+						Mobile Development
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="aboutus-pages marging-page" style="padding-top: 175px;">
+			<div class="container">
+				<div class="item-list">
+					<div class="row">
+						<div class="col-md-9">
+							<div class="row">
+								<div class="col-md-12 key-feature" style="text-align: left;">
+									About Mobile Development</div>
+
+								<div class="col-md-12 col-xs-12 tewxt-mys"
+									style="text-align: justify;">AgiloWorks is a software company that is helping its
+										customers in their digital transformation journey in Agile
+										way. Because we know how to design and build highly scalable
+										distributed systems, using Agile development methodologies.</div>
+
+								<div class="col-md-12" style="text-align: center;">
+									<img src="images/mobile-app-development.jpg"
+										style="margin: 0 auto;" class="img-responsive">
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+
+							<div class="list-group">
+								<a href="#" class="list-group-item active"> <i
+									class="fa fa-desktop"></i> Mobile Development
+								</a> <a href="application-development.html" class="list-group-item"><i
+									class="fa fa-angle-right"></i> Application Development</a> <a
+									href="mobile-development.html" class="list-group-item"><i
+									class="fa fa-angle-right"></i> Mobile App Development</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="aboutus-pages marging-page"
+			style="border-top: solid 1px #ddd; margin: 0px !important;">
+			<div class="container">
+				<div class="item-list">
+					<div class="row">
+
+						<div class="col-md-12 col-xs-12 key-feature">Why Mobile
+							Development?</div>
+
+
+
+					</div>
+
+
+
+					<div class="row">
+						<div class="col-md-6">
+
+							<div class="row">
+
+								<div class="col-sm-12 col-md-12">
+									<div class="thumbnail benifit">
+										<h3>
+											<span class="fa fa-check-circle imee"></span> Web Store
+										</h3>
+
+									</div>
+								</div>
+
+								<div class="col-sm-12 col-md-12">
+									<div class="thumbnail benifit">
+										<h3>
+											<span class="fa fa-check-circle imee"></span> Category,
+											Product and Inventory management
+										</h3>
+									</div>
+								</div>
+
+								<div class="col-sm-12 col-md-12">
+									<div class="thumbnail benifit">
+										<h3>
+											<span class="fa fa-check-circle imee"></span> Order
+											management &amp; tracking
+										</h3>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-12">
+									<div class="thumbnail benifit">
+										<h3>
+											<span class="fa fa-check-circle imee"></span> Delivery
+											management
+										</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<img src="images/iPhone-apps.png" width="624" height="341"
+								class="img-responsive">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<section class="our-team" style="padding-top: 30px;">
+			<div class="container  background-a"
+				style="width: 100%; color: #fff; padding: 0px;">
+
+
+
+				<div class="row">
+
+					<div class="col-md-6 invoction">
+						<h3>Why Mobile Development with Agilo Works</h3>
+
+						<p>From concept to application software development, we covers
+							the entire mobile app development cycle, no matter how diverse or
+							complex your needs are. Our ability to meet your needs stem from
+							our team of experts, who have years of experience in global app
+							solution services and product engineering industries.</p>
+					</div>
+
+					<div class="col-md-6">
+						<img src="images/Why-Application.jpg" class="img-responsive">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="aboutus-pages" style="margin: 0px;">
+			<div class="container">
+				<div class="item-list">
+					<div class="row">
+
+						<div class="col-md-12 col-xs-12 key-feature">Services
+							Offered</div>
+
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+
+							<div class="row">
+								<div class="col-sm-12 col-md-12">
+									<div class="thumbnail benifit">
+										<h3>
+											<span class="fa fa-check-circle imee"></span>iPhone app
+											development
+										</h3>
+									</div>
+								</div>
+
+								<div class="col-sm-12 col-md-12">
+									<div class="thumbnail benifit">
+										<h3>
+											<span class="fa fa-check-circle imee"></span>Android app
+											development
+										</h3>
+									</div>
+								</div>
+
+
+								<div class="col-sm-12 col-md-12">
+									<div class="thumbnail benifit">
+										<h3>
+											<span class="fa fa-check-circle imee"></span>React Native app
+											development
+										</h3>
+									</div>
+								</div>
+
+								<div class="col-sm-12 col-md-12">
+									<div class="thumbnail benifit">
+										<h3>
+											<span class="fa fa-check-circle imee"></span>Hybrid app
+											development
+										</h3>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="col-md-6">
+							<img src="images/iPhone-apps.png" width="624" height="341"
+								class="img-responsive">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="aboutus-pages" style="margin: 0px; background: #efefef;">
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12 col-xs-12 key-feature">Services Offered</div>
+					<div class="col-md-12">
+						<div id="parentHorizontalTab"
+							style="float: left; background: #fff;">
+
+
+							<div id="ChildVerticalTab_1">
+								<ul class="resp-tabs-list ver_1">
+									<li>iPhone App Development</li>
+									<li>Android App Development</li>
+									<li>Windows App Development</li>
+									<li>React Native App Development</li>
+									<li>Hybrid App Development</li>
+								</ul>
+								<div class="resp-tabs-container ver_1">
+									<div>
+										<div class="row">
+
+											<div class="col-md-12 col-xs-12 deve">iPhone App
+												Development</div>
+
+											<div class="col-md-12">
+
+												<div class="row">
+
+													<div class="col-md-6 devep-mys">Keeping in mind the
+														increasing demand of iPhone apps, offers effective
+														offshore iPhone app development solutions. Right from idea
+														generation to conceptualizing it, we works as your
+														reliable outsource partner who works to its best and
+														ensures marketplace success of your iPhone app.</div>
+
+													<div class="col-md-6">
+														<img src="images/iPhoneAppDevelopment.png"
+															class="img-responsive">
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+
+
+									<div>
+										<div class="row">
+
+											<div class="col-md-12 col-xs-12 deve">Android App
+												Development</div>
+
+											<div class="col-md-12">
+
+												<div class="row">
+
+													<div class="col-md-6 devep-mys">The number of Android
+														devices are extensively increasing in the market. This
+														offers a better opportunity to build apps based on the
+														platform. We have years of experience in Android app
+														development and we make sure to apply them on the project
+														when you outsource us.</div>
+
+													<div class="col-md-6">
+														<img src="images/AndroidAppDevelopment.jpg"
+															class="img-responsive">
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+
+
+
+									<div>
+										<div class="row">
+
+											<div class="col-md-12 col-xs-12 deve">Windows App
+												Development</div>
+
+											<div class="col-md-12">
+
+												<div class="row">
+
+													<div class="col-md-6 devep-mys">The number of Windows
+														phone users is increasing and it is slowly and steadily
+														getting into the market of smartphone users. This opens up
+														the opportunity for Windows app development. Hire mobile
+														app developer from us for your next windows app
+														development.</div>
+
+													<div class="col-md-6">
+														<img src="images/WindowsAppDevelopment.png"
+															class="img-responsive">
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+
+
+									<div>
+										<div class="row">
+
+											<div class="col-md-12 col-xs-12 deve">React Native App
+												Development</div>
+
+											<div class="col-md-12">
+
+												<div class="row">
+
+													<div class="col-md-6 devep-mys">React Native is a
+														JavaScript library which makes use of ReactJS to build
+														native mobile apps. The library has been developed by the
+														Facebook engineers and became quite popular within a short
+														span of time. At WeblineIndia, we offer React Native
+														development service to build native mobile apps for the
+														Android and iOS platforms.</div>
+
+													<div class="col-md-6">
+														<img src="images/ReactNativeAppDevelopment.jpg"
+															class="img-responsive">
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+
+
+									<div>
+										<div class="row">
+
+											<div class="col-md-12 col-xs-12 deve">Hybrid App
+												Development</div>
+
+											<div class="col-md-12">
+
+												<div class="row">
+
+													<div class="col-md-6 devep-mys">Keeping the changing
+														needs of the digital market, WeblineIndia offers offshore
+														hybrid app development services. This helps the businesses
+														come up with mobile apps which works on different mobile
+														platforms. Hybrid app saves on development costs and makes
+														it easy to upgrade and maintain.</div>
+
+													<div class="col-md-6">
+														<img src="images/HybridAppDevelopment.png"
+															class="img-responsive">
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+
+
+								</div>
+
+
+							</div>
+
+
+
+						</div>
+
+
+						<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+						<script src="src/jquery.easyResponsiveTabs.js"></script>
+						<script type="text/javascript">
+							$(document).ready(function() {
+
+								$('#parentHorizontalTab').easyResponsiveTabs({
+									type : 'default', //Types: default, vertical, accordion
+									width : 'auto', //auto or any width like 600px
+									fit : true, // 100% fit in a container
+									closed : 'accordion', // Start closed if in accordion view
+									tabidentify : 'hor_1', // The tab groups identifier
+									activate : function(event) { // Callback function if tab is switched
+										var $tab = $(this);
+										var $info = $('#nested-tabInfo');
+										var $name = $('span', $info);
+
+										$name.text($tab.text());
+
+										$info.show();
+									}
+								});
+
+								$('#ChildVerticalTab_1').easyResponsiveTabs({
+									type : 'vertical',
+									width : 'auto',
+									fit : true,
+									tabidentify : 'ver_1', // The tab groups identifier
+									activetab_bg : '#fff', // background color for active tabs in this group
+									inactive_bg : '#F5F5F5', // background color for inactive tabs in this group
+									active_border_color : '#c1c1c1', // border color for active tabs heads in this group
+									active_content_border_color : '#5AB1D0' // border color for active tabs contect in this group so that it matches the tab head border
+								});
+
+							});
+						</script>
+					</div>
+
+
+				</div>
+
+			</div>
+
+
+		</div>
+
+
+
+
+		<div class="info-agilo" id="contact"
+			style="background: #ffb426 !important; text-align: center !important; color: #fff;">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-12">
+						<div class="sec-title">
+							<h2 class="center">
+								Call us today at +91-9711 447 489 or <br> email
+								sales@agiloworks.com
+							</h2>
+
+						</div>
+						<a href="contactus.html" class="border-button-gyl">Request
+							Quote</a> <a href="contactus.html" class="border-button-gyl">Contact
+							us</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+		<footer class="main-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="footer-wideget logo-wideget">
+							<div class="logo-top">
+								<div class="footer-logo">
+									<a href="index.html"><img src="images/footer/logo1.png"
+										width="251" height="49" class="img-responsive"></a>
+								</div>
+								<div class="text">
+									<p>AgiloWorks is a software company that is helping its
+										customers in their digital transformation journey in Agile
+										way. Because we know how to design and build highly scalable
+										distributed systems, using Agile development methodologies.</p>
+								</div>
+								<a href="aboutus.html"><i class="fa fa-long-arrow-right"></i>more
+									about us</a>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col-md-2 col-sm-6 col-xs-12">
+						<div class="footer-wideget service-widget">
+							<div class="footer-title">
+								<h5>Navigation</h5>
+							</div>
+							<ul class="list">
+
+								<li><a href="aboutus.html"><p>About Us</p></a></li>
+
+								<li><a href="technologies.html"><p>Technologies</p></a></li>
+
+								<li><a href="contactus.html"><p>Contact Us</p></a></li>
+
+							</ul>
+						</div>
+					</div>
+
+
+
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="footer-wideget service-widget">
+							<div class="footer-title">
+								<h5>Verticals</h5>
+							</div>
+							<ul class="list">
+								<li><a href="core-ecommerce-framework.html"><p>Core
+											Ecommerce Framework</p></a></li>
+								<li><a href="bestpik.html"><p>BestPik</p></a></li>
+								<li><a href="apzpik.html"><p>ApzPik</p></a></li>
+
+
+							</ul>
+						</div>
+					</div>
+
+
+
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="footer-wideget service-widget">
+							<div class="footer-title">
+								<h5>Services</h5>
+							</div>
+							<ul class="list">
+								<li><a href="application-development.html"><p>Application
+											Development</p></a></li>
+								<li><a href="mobile-development.html"><p>Mobile App
+											Development</p></a></li>
+
+								<li><a
+									href="functional-testing-and-automation-testing.html"><p>Functional
+											Manual &amp; Automation Testing</p></a></li>
+								<li><a href="api-testing.html"><p>API Testing</p></a></li>
+
+
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+
+
+		<div class="footer-bottom text-center">
+			<div class="container">
+				<div class="copyright">
+					Copyright © 2018 <a href="#">Agilo Works.</a> All rights reserved.
+				</div>
+			</div>
+		</div>
+
+
+
+		<!--Scripts-->
+
+		<script src="js/ace-responsive-menu.js" type="text/javascript"></script>
+
+		<!--Plugin Initialization-->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#respMenu").aceResponsiveMenu({
+					resizeWidth : '768', // Set the same in Media query       
+					animationSpeed : 'fast', //slow, medium, fast
+					accoridonExpAll : false
+				//Expands all the accordion menu on click
+				});
+			});
+		</script>
+
+
+
+
+
+
+
+
+
+
+		<!-- Scroll Top Button -->
+		<button class="scroll-top tran3s color2_bg">
+			<span class="fa fa-angle-up"></span>
+		</button>
+
+
+
+		<!-- jQuery ui js -->
+
+		<!-- mixit up -->
+		<script src="js/wow.js"></script>
+		<script src="js/jquery.mixitup.min.js"></script>
+		<script src="js/jquery.fitvids.js"></script>
+		<script src="js/bootstrap-select.min.js"></script>
+
+		<!-- revolution slider js -->
+		<script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+		<script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+		<script
+			src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+		<script
+			src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+		<script
+			src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+		<script
+			src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+
+
+
+
+		<script src="js/custom.js"></script>
+		<script src="js/fontawesome.js"></script>
+
+
+
+
+
+
+
+	</div>
+
+</body>
+
+
+<!-- Mirrored from crypto-bitcoins.bitballoon.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Jan 2018 06:59:21 GMT -->
+</html>
+
+
+
